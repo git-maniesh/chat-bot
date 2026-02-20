@@ -87,7 +87,7 @@ const generateResponse = async (botMsgDiv) => {
     });
 
     const data = await response.json();
-    console.log("RAW GEMINI RESPONSE:", data);
+   // console.log("RAW GEMINI RESPONSE:", data);
 
     if (!response.ok) {
       throw new Error(data.error || `API Error: ${response.statusText}`);
