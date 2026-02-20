@@ -1,4 +1,4 @@
-const API_URL = "https://chat-bot-szoz.onrender.com";
+const API_URL = "https://chat-bot-szoz.onrender.com/api/gemini";
 
 const container = document.querySelector(".container");
 const chatsContainer = document.querySelector(".chats-container");
